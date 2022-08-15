@@ -7,7 +7,6 @@ def admin_login(username, password)
 end
 
 def hows_the_weather(temperature)
-  # your code here
   if temperature < 50
     "It's brisk out there!"
   elsif temperature >= 40 && temperature <= 65
